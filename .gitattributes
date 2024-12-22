@@ -1,2 +1,42 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+@echo off
+title MutliTool By Jack
+color 5
+call :banner
+
+:banner
+echo.
+echo.
+echo                         MutliTool By Jack
+echo.
+echo.
+
+:menu
+echo [1] Open Wireshark
+echo [2] Open Vitrual Box
+echo [3] Exit the program
+
+set /p choice=Enter A Number To Open The Program....
+
+if "%choice%" =="1" goto Wireshark
+if "%choice%" =="2" goto VitrualBox
+if "%choice%" =="3" goto Exit
+echo Invalid Number Please Try Again.....
+pause
+goto menu
+
+:Wireshark
+echo Opening Wireshark......
+start "" "C:\Program Files\Wireshark\Wireshark.exe"
+pause
+goto menu
+
+:VitrualBox
+echo Opening Vitrual Box......
+start "" "C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
+pause
+goto menu
+
+:Exit
+echo Exiting Program Please Wait....
+timeout /t 2 /nobreak>nul
+Exit
