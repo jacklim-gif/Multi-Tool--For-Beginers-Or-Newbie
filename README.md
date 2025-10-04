@@ -1,5 +1,10 @@
-About the coding , if someone who interesting learn widnow batch file i recommand can watch and learn about how does each of the code function work.....
-This is the tutorial how it start and explain each of the code "https://youtu.be/iYRVbU4Hf6o"
-if who doesn't have the Notepad++ , here is the link to download https://notepad-plus-plus.org/downloads/
+## Learn Windows Batch Scripting
 
-Last, Enjoy the video and hope you guys learn fun and still get motivate.
+If you're interested in learning Windows batch files, I recommend watching this tutorial. It explains how each part of the code works step by step:  
+[Watch the tutorial](https://youtu.be/iYRVbU4Hf6o)  
+
+If you don’t have **Notepad++**, you can download it here:  
+[Download Notepad++](https://notepad-plus-plus.org/downloads/)  
+
+**Enjoy the video!**  
+Hope you have fun learning and stay motivated.
